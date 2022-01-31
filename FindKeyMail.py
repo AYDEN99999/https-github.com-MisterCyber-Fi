@@ -94,9 +94,9 @@ def gmail():
                print(b+"\n\n[-] Autenticacao nao suportada pelo servidor")
 
            except smtplib.SMTPServerDisconnected:
-               tenta = input("\033[1;31m[-] Conexão fechada inesperadamente, Reiniciar (y/N)? ").lower()
+               tenta = input("\033[1;31m[-] Conexão fechada inesperadamente, Reiniciar (y/N)? ").lower(N)
                if tenta == 'y':
-                  gmail()
+                  gmail(aalnd9124@gmail.com)
                else:
                   quit()
 
